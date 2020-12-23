@@ -1,0 +1,8 @@
+chardet==4.0.0
+pdfminer.six==20200517
+pdfplumber==0.5.25
+Pillow==8.0.1
+pycryptodome==3.9.9
+PyPDF2==1.26.0
+sortedcontainers==2.3.0
+Wand==0.6.5
