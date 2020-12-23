@@ -35,4 +35,5 @@ def find_pdfs(f: pathlib.Path, pdfs: List[pathlib.Path] = []) -> List[pathlib.Pa
 if __name__ == "__main__":
     search_folder = pathlib.Path("formats")
     pdfs = find_pdfs(search_folder)
-    print(pdfs)
+    print(f"{len(pdfs)} PDFs found:")
+    print([pdf.name for pdf in pdfs])
